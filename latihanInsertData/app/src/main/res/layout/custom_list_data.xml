@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:layout_width="match_parent"
+    android:layout_height="55dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:paddingLeft="5dp"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Name"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:paddingLeft="5dp"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Phone"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:text="Address"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

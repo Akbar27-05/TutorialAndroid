@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etStudent"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:hint="Student Name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:hint="Phone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:hint="Address"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Add Data"
+        android:backgroundTint="#FF5722"
+        android:layout_width="300dp"
+        android:layout_height="60dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dataRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<!--    <LinearLayout-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:weightSum="3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="55dp">-->
+
+<!--        <TextView-->
+<!--            android:background="#9C27B0"-->
+<!--            android:id="@+id/tvName"-->
+<!--            android:paddingLeft="5dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center|left"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="Name"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="15sp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"/>-->
+
+<!--        <TextView-->
+<!--            android:background="#FF9800"-->
+<!--            android:id="@+id/tvPhone"-->
+<!--            android:paddingLeft="5dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center|left"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="Phone"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="15sp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"/>-->
+
+<!--        <TextView-->
+<!--            android:background="#4CAF50"-->
+<!--            android:id="@+id/tvAddress"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center|left"-->
+<!--            android:paddingLeft="5dp"-->
+<!--            android:text="Address"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="15sp"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/listview_id"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+</LinearLayout>

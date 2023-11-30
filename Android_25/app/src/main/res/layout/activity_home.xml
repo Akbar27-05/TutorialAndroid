@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Hello,"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text=" sapi"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rv"
+        android:layout_height="500dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:backgroundTint="@color/satu"
+            android:text="Home"/>
+
+        <Button
+            android:id="@+id/btnCart"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/tiga"
+            android:text="Cart"/>
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="100dp"
+            android:layout_margin="4dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/tiga"
+            android:text="History"/>
+
+    </LinearLayout>
+
+</LinearLayout>

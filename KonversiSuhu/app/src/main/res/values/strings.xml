@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Konversi Suhu</string>
+
+    <string-array name="pilihan"> <!-- Ngisi string Spiner/Combobox di taruh ke atribut entries -->
+        <item>Celcius To Reamur</item>
+        <item>Celcius To Fahrenheit</item>
+        <item>Celcius To Kelvin</item>
+        <item>Reamur To Celcius</item>
+        <item>Reamur To Fahrenheit</item>
+    </string-array>
+</resources>
